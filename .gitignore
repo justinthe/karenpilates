@@ -1,0 +1,13 @@
+# Source material, not part of the published site (originals are large)
+album/
+images/
+about_me.txt
+video_urls
+
+# Tooling
+.recall/
+.impeccable/
+
+# Internal working notes
+PRODUCT.md
+DESIGN.md
