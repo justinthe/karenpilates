@@ -171,7 +171,7 @@ p{margin:0 0 1em;max-width:68ch}
 @media(min-width:520px){.grid{grid-template-columns:1fr 1fr}}
 @media(min-width:900px){.grid{gap:28px 18px;margin-top:0}}
 .grid li{min-width:0}
-@media(min-width:520px){.grid{align-items:end}.grid .cap{min-height:3.6em}}
+@media(min-width:520px){.grid li{display:grid;grid-row:span 2;grid-template-rows:subgrid;row-gap:0}.grid li>.zoom{align-self:end}}
 .zoom{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in;border-radius:3px}
 .zoom img{width:100%;height:auto;outline:1px solid rgba(16,24,32,.25)}
 .zoom:hover img{outline:2px solid var(--ink)}
